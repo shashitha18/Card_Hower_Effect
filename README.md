@@ -18,7 +18,8 @@ With its sleek design and smooth transitions, this project is sure to captivate 
 
 ## Demo
 
-Check out the [demo]to see the Card Hover Effect in action!
+Check out the  demo : https://github.com/shashitha18/Card_Hower_Effect/blob/main/Card%20Hover%20Effect.mp4
+to see the Card Hover Effect in action!
 
 ## Usage
 
