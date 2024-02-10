@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: consolas;
+}
+
+.container {
+    width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    position: relative;
+    cursor: pointer;
+}
+
+.card .face {
+    width: 300px;
+    height: 200px;
+    transition: 0.5s;
+}
+
+.card:hover .face {
+    background-image: url("https://kit8.net/wp-content/uploads/2020/12/Coding@2x.png");
+    min-height: 200px;
+    max-width: 300;
+    /* background-attachment: fixed; */
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-image: url("https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2022/11/bts-2-1668504737.jpg"); */
+    /* background: #ff0057; */
+}
+
+.card .face .content {
+    opacity: 0.2;
+    transition: 0.5s;
+}
+ 
+.card:hover .face .content {
+    opacity: 1;
+}
+
+.card .face .content img {
+    max-width: 100px;
+}
+
+.card .face .content h3 {
+    margin: 10px 0 0;
+    padding: 0;
+    color: #00e5ffe8;
+    text-align: center;
+    font-size: 2em;
+    font-style: bold;
+}
+
+.card .face.face2 {
+    position: relative;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+    transform: translateY(-100px);
+}
+
+.card:hover .face.face2 {
+    transform: translateY(0);
+}
+
+.card .face.face2 .content p {
+    margin: 0;
+    padding: 0;
+}
+
+.card .face.face2 .content a {
+    margin: 15px 0 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #be5151;
+    padding: 5px;
+    border: 1px solid #333;
+}
+
+.card .face.face2 .content a:hover {
+    background: #333;
+    color: #fff;
+}
